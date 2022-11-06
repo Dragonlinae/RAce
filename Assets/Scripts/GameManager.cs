@@ -5,6 +5,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    private GameObject[] cars = new GameObject[10];
+    public GameObject car;
     public TextMeshProUGUI timer;
     public TextMeshProUGUI destinationtext;
     public GameObject flag;
@@ -21,6 +23,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         setDestination(Random.Range(0, 3));
+        for (int i = 0; i < 10; i++)
+        {
+            GameObject newcar = Instantiate(car, new Vector3(0, -10000, 0), Quaternion.identity);
+            cars[i] = newcar;
+        }
     }
 
     // Update is called once per frame
