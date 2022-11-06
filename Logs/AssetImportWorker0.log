@@ -1,16 +1,24 @@
+Unity Editor version:    2021.3.12f1 (8af3c3e441b1)
+Branch:                  2021.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0 (Build 22A380)
+Darwin version:          22.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2021.3/release' branch; Version is '2021.3.12f1 (8af3c3e441b1) revision 9106371'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 32604 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 C:/Users/joshu/Desktop/CutieHack/My project
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,6 +26,15 @@ Logs/AssetImportWorker0.log
 51034
 Successfully changed project path to: C:/Users/joshu/Desktop/CutieHack/My project
 C:/Users/joshu/Desktop/CutieHack/My project
+=======
+/Users/oliver/git/RAce
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62536
+Successfully changed project path to: /Users/oliver/git/RAce
+/Users/oliver/git/RAce
+>>>>>>> b6c5074 (added mesh images and colliders)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,19 +64,27 @@ C:/Users/joshu/Desktop/CutieHack/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 287.53 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/joshu/Desktop/CutieHack/My project/Assets
+=======
+Refreshing native plugins compatible for Editor in 122.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1 (8af3c3e441b1)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/oliver/git/RAce/Assets
+>>>>>>> b6c5074 (added mesh images and colliders)
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
-    Vendor:   NVIDIA
-    VRAM:     5980 MB
-    Driver:   31.0.15.1700
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1/Editor/Data/MonoBleedingEdge/etc'
@@ -76,11 +101,30 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (969ms)
 		BeginReloadAssembly (112ms)
+=======
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56938
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001399 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 106.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (508ms)
+		BeginReloadAssembly (87ms)
+>>>>>>> b6c5074 (added mesh images and colliders)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (721ms)
 			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -95,12 +139,29 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (201ms)
 				ProcessInitializeOnLoadMethodAttributes (76ms)
+=======
+		EndReloadAssembly (352ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (71ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+>>>>>>> b6c5074 (added mesh images and colliders)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.012848 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\joshu\Desktop\CutieHack\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -146,19 +207,68 @@ Unloading 5557 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 58 unused Assets / (2.0 MB). Loaded Objects now: 5985.
 Memory consumption went from 221.1 MB to 219.1 MB.
 Total: 4.871400 ms (FindLiveObjects: 0.567200 ms CreateObjectMapping: 0.539500 ms MarkObjects: 3.276700 ms  DeleteObjects: 0.487000 ms)
+=======
+Registered in 0.027065 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 101.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (2.3 MB). Loaded Objects now: 6111.
+Memory consumption went from 218.3 MB to 216.0 MB.
+Total: 4.245167 ms (FindLiveObjects: 0.362916 ms CreateObjectMapping: 0.073292 ms MarkObjects: 3.161625 ms  DeleteObjects: 0.646083 ms)
+>>>>>>> b6c5074 (added mesh images and colliders)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 33629.287912 seconds.
   path: Assets/Scenes/SampleScene/Volume Profile.asset
   artifactKey: Guid(e9ba11ab1b200f2438c66e321ec62821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -1906,20 +2016,276 @@ Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 71 unused Assets / (6.2 MB). Loaded Objects now: 6186.
 Memory consumption went from 221.4 MB to 215.2 MB.
 Total: 22.880700 ms (FindLiveObjects: 1.221300 ms CreateObjectMapping: 1.712300 ms MarkObjects: 10.103600 ms  DeleteObjects: 9.840400 ms)
+=======
+  Time since last request: 53525.168202 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(44440117ac0947040b9f3bfa8b04ebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(44440117ac0947040b9f3bfa8b04ebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354f6eb2257e41482fe2dc30526a1ff8') in 0.101172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476677 seconds.
+  path: Assets/Scenes/SampleScene/Volume Profile.asset
+  artifactKey: Guid(e9ba11ab1b200f2438c66e321ec62821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Volume Profile.asset using Guid(e9ba11ab1b200f2438c66e321ec62821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ca4a5f977668b7eca1416c86c8cd22') in 0.009612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.612081 seconds.
+  path: Assets/Terrain/base.mat
+  artifactKey: Guid(10cfb6c89aa212249a7fd2f1311346bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/base.mat using Guid(10cfb6c89aa212249a7fd2f1311346bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f05ac49a28b72651894e3084e57355') in 0.291650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Terrain/EXPORT_GOOGLE_SAT_WM.png
+  artifactKey: Guid(b5512c153a25b2a439f424616a2455dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/EXPORT_GOOGLE_SAT_WM.png using Guid(b5512c153a25b2a439f424616a2455dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d2106b4c0cb6aee7bc5e39bc5090fd') in 0.116994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Terrain/EXPORT_GOOGLE_SAT_WM.002.png
+  artifactKey: Guid(50f8bc84e31c99f4483fefd822b3b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/EXPORT_GOOGLE_SAT_WM.002.png using Guid(50f8bc84e31c99f4483fefd822b3b8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308cd2baf931c40770649034fbd4b057') in 0.012137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Terrain/googlemap.mat
+  artifactKey: Guid(e00f5ffdc957be9458baf72fe579c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/googlemap.mat using Guid(e00f5ffdc957be9458baf72fe579c081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0e844b0c6530a10e049d78294a9e13') in 0.006886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Terrain/GOOGLE_SAT_WM.tif
+  artifactKey: Guid(0103cc9246e29fd4ebe261a1a631909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/GOOGLE_SAT_WM.tif using Guid(0103cc9246e29fd4ebe261a1a631909d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c0f41a8c9bb7fcbe701a3efc47631c') in 0.069803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Terrain/BuildingsHighRise0415_1_download600.jpg
+  artifactKey: Guid(7551cfaf162ea634fabcead4b9e176bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/BuildingsHighRise0415_1_download600.jpg using Guid(7551cfaf162ea634fabcead4b9e176bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a6825d3121aa54015da54634e446b1') in 0.055960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Terrain/ucr.blend
+  artifactKey: Guid(ebfe3f5195c78ae409a02387bdb3c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr.blend using Guid(ebfe3f5195c78ae409a02387bdb3c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6fe4ef4a427acf392798e37a266b0f') in 0.123004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.071645 seconds.
+  path: Assets/Terrain/ucr.blend
+  artifactKey: Guid(ebfe3f5195c78ae409a02387bdb3c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr.blend using Guid(ebfe3f5195c78ae409a02387bdb3c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c49fe4887afce833b9d2b7c9894b6b1') in 2.849506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.533281 seconds.
+  path: Assets/Textures/carcursor.png
+  artifactKey: Guid(aa761eeeb6df9724eaeceb42088d6208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/carcursor.png using Guid(aa761eeeb6df9724eaeceb42088d6208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454439b183d741ea7a28828d826758ca') in 0.023343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Textures/MinimapTexture.renderTexture
+  artifactKey: Guid(8c21250fad0a48744b1716cf71e3cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MinimapTexture.renderTexture using Guid(8c21250fad0a48744b1716cf71e3cdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d144f0b8375bad0b0c30afc6bc99fd') in 0.098983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.116834 seconds.
+  path: Assets/Terrain/ucr International Village.png
+  artifactKey: Guid(946c75708b05140a4b1cb2ceb9e899a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr International Village.png using Guid(946c75708b05140a4b1cb2ceb9e899a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1cebd96290c6d103bf182a304eeed2') in 0.027816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Terrain/ucr Plaza Apts.png
+  artifactKey: Guid(a7b50b7de6ef7497b83db8a523157b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Plaza Apts.png using Guid(a7b50b7de6ef7497b83db8a523157b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe3c9d39c791d678098febaabe1e7d9') in 0.009157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Terrain/ucr Orbach Library (Science Library).png
+  artifactKey: Guid(c91d761dc233c4a0aab3325596c5c2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Orbach Library (Science Library).png using Guid(c91d761dc233c4a0aab3325596c5c2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9136b36e54e4bdb568e41642811edef6') in 0.018636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Terrain/UCR Webber Hall.png
+  artifactKey: Guid(bb66ed4e2411646ecbcce941e4e8e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Webber Hall.png using Guid(bb66ed4e2411646ecbcce941e4e8e877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a1735264866cf6128b37cdcacde8ca') in 0.007779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Terrain/ucr Printing and Reprographics.png
+  artifactKey: Guid(e1e04427ddfb84ff08c9a2dce7ca1097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Printing and Reprographics.png using Guid(e1e04427ddfb84ff08c9a2dce7ca1097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a4e2911fcab14a37513905527f7767') in 0.008584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Terrain/UCR School of Medicine (SoM).png
+  artifactKey: Guid(71b965daebcc842d1b0fc6ddb17543a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR School of Medicine (SoM).png using Guid(71b965daebcc842d1b0fc6ddb17543a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc7c1fd60d89c9224643b088de3c696') in 0.007349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Terrain/ucr Purchasing Dept.png
+  artifactKey: Guid(be3c9e60d05754b249a0bd8a29d8ea72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Purchasing Dept.png using Guid(be3c9e60d05754b249a0bd8a29d8ea72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbf0d56136febbcbee9ca56446d0efa') in 0.006282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Terrain/ucr Physics Building.png
+  artifactKey: Guid(479c7f515b9fe46b89ef085203df77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Physics Building.png using Guid(479c7f515b9fe46b89ef085203df77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d5b076d0c2edc53ef46de90f295c4d') in 0.008241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Terrain/ucr Psychology Building.png
+  artifactKey: Guid(463e67f0170d943c1854173a9c5617ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Psychology Building.png using Guid(463e67f0170d943c1854173a9c5617ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c840eec6685a0e356b2b8a6a30d739') in 0.004592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Terrain/ucr Materials Science.png
+  artifactKey: Guid(8cc533a854fe0491880ef23739fe58c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Materials Science.png using Guid(8cc533a854fe0491880ef23739fe58c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0df899013878bb41ccd3462bd6d7f94') in 0.005042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Terrain/UCR Watkins 1000.png
+  artifactKey: Guid(8c9d632aee090490d926980987cd57e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Watkins 1000.png using Guid(8c9d632aee090490d926980987cd57e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8d339b8d2a06465a5a1c12fe2dae57') in 0.005607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Terrain/UCR USDA Salinity Laboratory.png
+  artifactKey: Guid(ddc420d930bad468490234e93329a416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR USDA Salinity Laboratory.png using Guid(ddc420d930bad468490234e93329a416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf6917bc0813ff2edd6d8f4ea09a4d5') in 0.004472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Terrain/ucr School of Medicine Student Center.png
+  artifactKey: Guid(73af57f3e37a1418f8c7126d7aa03085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr School of Medicine Student Center.png using Guid(73af57f3e37a1418f8c7126d7aa03085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2d9575da0c1513fdc801823540cee1') in 0.005713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Terrain/UCR Spieth Hall.png
+  artifactKey: Guid(c55e4486c4c974dc3b120c4940baf353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Spieth Hall.png using Guid(c55e4486c4c974dc3b120c4940baf353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d3b4e05845ec7566ac283ddc7088fb') in 0.004683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Terrain/ucr Science Laboratories 1.png
+  artifactKey: Guid(db2e78c0f5eef4d47a5a82c79d274546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Science Laboratories 1.png using Guid(db2e78c0f5eef4d47a5a82c79d274546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5615ac6e0e5f92afb653dc79a29f1f4') in 0.006235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Terrain/ucr School of Medicine Education.png
+  artifactKey: Guid(fee686d8f4891453da0878196807f8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr School of Medicine Education.png using Guid(fee686d8f4891453da0878196807f8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381862bfe3b750a95e898f2bd92ea542') in 0.015018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Terrain/UCR Student Services.png
+  artifactKey: Guid(2d59e32ad229340ad9e32bf84e422ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Student Services.png using Guid(2d59e32ad229340ad9e32bf84e422ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8869fa2500657ed123067d9757db35') in 0.006093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Terrain/UCR University Village Theater.png
+  artifactKey: Guid(e1888d884d1ec421988b5e1b72c90ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR University Village Theater.png using Guid(e1888d884d1ec421988b5e1b72c90ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c3740eb16bb2f06751a9f887aa31a7') in 0.005658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Terrain/ucr Rivera Library.png
+  artifactKey: Guid(cf63bb6135ea64f74a0f77a042c283b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Rivera Library.png using Guid(cf63bb6135ea64f74a0f77a042c283b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69daaddf9969df651db1474400407160') in 0.005521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Terrain/UCR UCR Community Garden.png
+  artifactKey: Guid(5ad319b6ddcb74a08b00d383dcc343c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR UCR Community Garden.png using Guid(5ad319b6ddcb74a08b00d383dcc343c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816579c3647eb80d2af438ab6e812dfc') in 0.005834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Terrain/ucr Skye Hall.png
+  artifactKey: Guid(29940702986c044be8594716c6ba7ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Skye Hall.png using Guid(29940702986c044be8594716c6ba7ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59f908053ffeda4be3b93bec590c3bd') in 0.003975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Terrain/ucr School of Medicine Research.png
+  artifactKey: Guid(7deb96888c5464b4f9b01d74fa30d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr School of Medicine Research.png using Guid(7deb96888c5464b4f9b01d74fa30d722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbeaf75d46c64c2f513e0ad7b31df12d') in 0.004134 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002496 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x2a3baf000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Domain Reload Profiling:
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (290ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.3 MB). Loaded Objects now: 6164.
+Memory consumption went from 0.74 GB to 0.74 GB.
+Total: 4.310000 ms (FindLiveObjects: 0.289833 ms CreateObjectMapping: 0.174500 ms MarkObjects: 3.371625 ms  DeleteObjects: 0.472750 ms)
+>>>>>>> b6c5074 (added mesh images and colliders)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> b6c5074 (added mesh images and colliders)
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.008467 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\joshu\Desktop\CutieHack\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -1932,10 +2298,26 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1384ms)
 		BeginReloadAssembly (151ms)
+=======
+Registered in 0.002680 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16daf7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (117ms)
+>>>>>>> b6c5074 (added mesh images and colliders)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (48ms)
 		EndReloadAssembly (1134ms)
 			LoadAssemblies (92ms)
@@ -1962,20 +2344,54 @@ Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 71 unused Assets / (6.2 MB). Loaded Objects now: 6189.
 Memory consumption went from 221.4 MB to 215.2 MB.
 Total: 6.237500 ms (FindLiveObjects: 0.441900 ms CreateObjectMapping: 0.393800 ms MarkObjects: 3.215700 ms  DeleteObjects: 2.185000 ms)
+=======
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (2.3 MB). Loaded Objects now: 6167.
+Memory consumption went from 0.74 GB to 0.74 GB.
+Total: 5.039708 ms (FindLiveObjects: 0.221584 ms CreateObjectMapping: 0.163500 ms MarkObjects: 3.881958 ms  DeleteObjects: 0.771041 ms)
+>>>>>>> b6c5074 (added mesh images and colliders)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> b6c5074 (added mesh images and colliders)
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.014735 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\joshu\Desktop\CutieHack\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -2018,18 +2434,69 @@ Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 71 unused Assets / (6.1 MB). Loaded Objects now: 6192.
 Memory consumption went from 221.4 MB to 215.3 MB.
 Total: 8.388300 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.552300 ms MarkObjects: 3.944300 ms  DeleteObjects: 3.437200 ms)
+=======
+Registered in 0.002754 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16daf7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (799ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (622ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (2.3 MB). Loaded Objects now: 6170.
+Memory consumption went from 0.74 GB to 0.74 GB.
+Total: 4.883250 ms (FindLiveObjects: 0.210250 ms CreateObjectMapping: 0.118583 ms MarkObjects: 3.607625 ms  DeleteObjects: 0.946333 ms)
+>>>>>>> b6c5074 (added mesh images and colliders)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> b6c5074 (added mesh images and colliders)
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.010869 seconds.
@@ -2074,12 +2541,381 @@ Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 71 unused Assets / (6.1 MB). Loaded Objects now: 6195.
 Memory consumption went from 221.4 MB to 215.3 MB.
 Total: 6.537800 ms (FindLiveObjects: 0.630700 ms CreateObjectMapping: 0.492000 ms MarkObjects: 3.058600 ms  DeleteObjects: 2.355400 ms)
+=======
+Received Import Request.
+  Time since last request: 137.819847 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx
+  artifactKey: Guid(4fea6053a1424d44daf193f09be2d491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftFuselage.fbx using Guid(4fea6053a1424d44daf193f09be2d491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a45154f7abeefe9f7a4b71cf1a9f702') in 0.572145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.722430 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx
+  artifactKey: Guid(8fb5ebe73f3784e4fab98b15f1299e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsPropeller.fbx using Guid(8fb5ebe73f3784e4fab98b15f1299e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2547bab7e02c7abb7334c21c6bfbdb') in 0.210866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.107348 seconds.
+  path: Assets/Terrain/ucr.blend
+  artifactKey: Guid(ebfe3f5195c78ae409a02387bdb3c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr.blend using Guid(ebfe3f5195c78ae409a02387bdb3c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c41165eaa3a94ec95613ee366baa4d') in 1.849274 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003382 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16daf7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (816ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (635ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.3 MB). Loaded Objects now: 6174.
+Memory consumption went from 0.82 GB to 0.82 GB.
+Total: 4.589417 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.196833 ms MarkObjects: 3.447417 ms  DeleteObjects: 0.716209 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 192.793631 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial
+  artifactKey: Guid(9f93f63d068b08c459038c40fce897d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial using Guid(9f93f63d068b08c459038c40fce897d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906a2a4d1437eac46bb2cf55936e9255') in 0.160481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial
+  artifactKey: Guid(52baaeb214519f347a35cf0edfd262ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Rubber.physicmaterial using Guid(52baaeb214519f347a35cf0edfd262ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0e6a37f00b9fa177978adb9c0b06ff') in 0.002116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial
+  artifactKey: Guid(e52fb17f9b1e7fd48b8955f1391d3688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/MaxFriction.physicMaterial using Guid(e52fb17f9b1e7fd48b8955f1391d3688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528f1c106bcdbca3cbd67f29ed39e0ce') in 0.040555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial
+  artifactKey: Guid(01571ba68fb2dad46aa03094ab219579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Metal.physicmaterial using Guid(01571ba68fb2dad46aa03094ab219579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8b567674882b39373672701a8062ae') in 0.001582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.672925 seconds.
+  path: Assets/Terrain/UCR Winston Chung Hall (BCOE).png
+  artifactKey: Guid(1a9012e2b64ed42fb97ae6c95ff52453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Winston Chung Hall (BCOE).png using Guid(1a9012e2b64ed42fb97ae6c95ff52453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9afb42cf40cb5d5d27655ac208b3f4') in 0.069761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.274735 seconds.
+  path: Assets/Terrain/University Theatre.png
+  artifactKey: Guid(0a8e5a7d7b5b3493e9f5ee7b5ec0e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/University Theatre.png using Guid(0a8e5a7d7b5b3493e9f5ee7b5ec0e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd5fb5d1b2018df867fd8beab453e5d') in 0.011778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.901958 seconds.
+  path: Assets/Terrain/ucr Headhouse (Greenhouses).png
+  artifactKey: Guid(7a34eb754a4c94eee8481f44967e0be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Headhouse (Greenhouses).png using Guid(7a34eb754a4c94eee8481f44967e0be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496ff84593d9ce1fdb3c0d39a496bff1') in 0.010576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Terrain/ucr Human Resources.png
+  artifactKey: Guid(40445d62fe0d249fdaf9305d858630a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Human Resources.png using Guid(40445d62fe0d249fdaf9305d858630a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a175d8eb6d454ca1462a8ff6389293c7') in 0.006670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Terrain/ucr Humanities (1).png
+  artifactKey: Guid(c20f4563cbc56483fa3edd0bc62fa131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Humanities (1).png using Guid(c20f4563cbc56483fa3edd0bc62fa131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de46ed3da5ef42fb6135388bed2ee01f') in 0.007388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Terrain/ucr CHASS Interdisciplinary North and South.png
+  artifactKey: Guid(c95fe6319d6874e3389f8f5f39bb919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr CHASS Interdisciplinary North and South.png using Guid(c95fe6319d6874e3389f8f5f39bb919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9977b9080e770b1f074ee00bc1f98eb4') in 0.011967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Terrain/ucr Bourns Hall (Engineering).png
+  artifactKey: Guid(5c1be8b2919594e3e8ca36751094a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Bourns Hall (Engineering).png using Guid(5c1be8b2919594e3e8ca36751094a4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb83816943d50a435d75221209be05c') in 0.006059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Terrain/UCR Alumni.png
+  artifactKey: Guid(8a2ca163810b04f61aa6a2f515c4234e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Alumni.png using Guid(8a2ca163810b04f61aa6a2f515c4234e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ea70b72de7aead464c1dcd669483b4') in 0.007277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Terrain/Orbach Library.png
+  artifactKey: Guid(292bbbe0a4de94752a1fa381964d1e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Orbach Library.png using Guid(292bbbe0a4de94752a1fa381964d1e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a348dd00b6ab5f76876a522f1b9d39f') in 0.007217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Terrain/ucr Career Center (Bookstore).png
+  artifactKey: Guid(1ff93eb52eb464dfd89910fcd2c6d2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Career Center (Bookstore).png using Guid(1ff93eb52eb464dfd89910fcd2c6d2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535d8c1823be28fdebf8edf26377d6ea') in 0.009020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Terrain/UCR Bourns College of Engineering (BCOE).png
+  artifactKey: Guid(bf7d2f6d95fd84b02b9e9d8672b94677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Bourns College of Engineering (BCOE).png using Guid(bf7d2f6d95fd84b02b9e9d8672b94677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2c84a8e8ebadc6ddff1c39c639f254') in 0.006188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Terrain/Campus Tours (Student Services).png
+  artifactKey: Guid(74355ef9da6de43e4b7572ee25b0df76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Campus Tours (Student Services).png using Guid(74355ef9da6de43e4b7572ee25b0df76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa2f521ccc82e5146e8dbbe2f6cbc16') in 0.007227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Terrain/Dining Services (Bannockburn Village).png
+  artifactKey: Guid(ea6abfd1894e54184b41631510fc5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Dining Services (Bannockburn Village).png using Guid(ea6abfd1894e54184b41631510fc5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a953eb4936c4594d3e4a85aa366511') in 0.006763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Terrain/HUB (Highlander Union Bldg).png
+  artifactKey: Guid(03c95073c7c5f44fda63aa35e74dea98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/HUB (Highlander Union Bldg).png using Guid(03c95073c7c5f44fda63aa35e74dea98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e957e08ac5bc1d288185523c930d03') in 0.006012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Terrain/ucr Highlander Union Bldg_Plaza (HUB).png
+  artifactKey: Guid(4bfcc7189b2d2446ebee4b26f44c6a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Highlander Union Bldg_Plaza (HUB).png using Guid(4bfcc7189b2d2446ebee4b26f44c6a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a243e940364f6b7f0426cd76253196') in 0.006162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Terrain/UCR Graduate School of Education (GSOE).png
+  artifactKey: Guid(16d18c58635424371af3da6d918838d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Graduate School of Education (GSOE).png using Guid(16d18c58635424371af3da6d918838d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ee9debaa93405b5c70da1d85514282') in 0.006183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Terrain/ucr Boyce Hall.png
+  artifactKey: Guid(5db7f4a12b572496da7dd776b025d093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Boyce Hall.png using Guid(5db7f4a12b572496da7dd776b025d093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e600b63c281c145a0b5387b81e2bcb') in 0.005462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Terrain/Anderson Hall (SoBA, AGSM) 1.png
+  artifactKey: Guid(1abaea098be7642cea34d23bf2400ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Anderson Hall (SoBA, AGSM) 1.png using Guid(1abaea098be7642cea34d23bf2400ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1574f0a0b9f0ecbd83271cbd72fd0a8') in 0.007041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Terrain/ucr Greenhouses.png
+  artifactKey: Guid(ae6945cd3a39d4d81953baa4536dee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Greenhouses.png using Guid(ae6945cd3a39d4d81953baa4536dee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899a893e4e86875ebdb340fbd6a981d3') in 0.011090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Terrain/ucr Biological Sciences.png
+  artifactKey: Guid(5186960f785e24ad7956fbade3e94ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Biological Sciences.png using Guid(5186960f785e24ad7956fbade3e94ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5263a24ebc62aa4df0308904a4c699d8') in 0.005001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Terrain/ucr Environmental Health and Safety.png
+  artifactKey: Guid(ca980ee40234c4e39b02747d091403d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Environmental Health and Safety.png using Guid(ca980ee40234c4e39b02747d091403d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e4fb7d654575ced729693b524430c9') in 0.006019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Terrain/ucr Herbarium.png
+  artifactKey: Guid(4ed717ee26c3f435a947382e4522a9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Herbarium.png using Guid(4ed717ee26c3f435a947382e4522a9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207069031872e9e5e0309f1b1c95b693') in 0.006813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Terrain/ucr Campus Tours (Student Services).png
+  artifactKey: Guid(6f358c1a3081c490e8c952c212701e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Campus Tours (Student Services).png using Guid(6f358c1a3081c490e8c952c212701e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af15dc63031173f0b4d9f06d2d00dcb') in 0.007274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Terrain/Center for Geospatial Science (Rivera Library).png
+  artifactKey: Guid(7f23e26acd35e452ebd2bacbe5625209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Center for Geospatial Science (Rivera Library).png using Guid(7f23e26acd35e452ebd2bacbe5625209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1840654ddab48bff4daaa228cf97b76b') in 0.006156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Terrain/UCR Athletics.png
+  artifactKey: Guid(54f738957160d4b9390a6beb89a98e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/UCR Athletics.png using Guid(54f738957160d4b9390a6beb89a98e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c3518ecb5142759625f9b36c88d200') in 0.006284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Terrain/ucr Entomology.png
+  artifactKey: Guid(2a02da81876b043bca8d7cba99fa9c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Entomology.png using Guid(2a02da81876b043bca8d7cba99fa9c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927f9dd045be881dedc2aa08cc9adb9f') in 0.005731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Terrain/ucr College Building North and College Building South (CNAS).png
+  artifactKey: Guid(7c1e9f14324d1486b9111ff49501ad41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr College Building North and College Building South (CNAS).png using Guid(7c1e9f14324d1486b9111ff49501ad41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff149574f8d8900c14ba572fc77912d') in 0.006167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Terrain/Student Recreation Center.png
+  artifactKey: Guid(de007864cfe824bdb9be34e3eb8d8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Student Recreation Center.png using Guid(de007864cfe824bdb9be34e3eb8d8817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9614910b4bed1e7d8c40826048fae4c') in 0.009648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Terrain/Batchelor Hall.png
+  artifactKey: Guid(bacc0761e3f6e4a2bbb77fd5dd05c77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Batchelor Hall.png using Guid(bacc0761e3f6e4a2bbb77fd5dd05c77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e7d16ae12de6db5c34854668e390c6') in 0.009608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Terrain/ucr Falkirk.png
+  artifactKey: Guid(9f86229486fd04ef1b4fe76b6c225b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Falkirk.png using Guid(9f86229486fd04ef1b4fe76b6c225b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762bc994131af29d0686faccce9c4854') in 0.007637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Terrain/Rivera Library (1).png
+  artifactKey: Guid(264901bf14a384e05a9131431f3ff895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Rivera Library (1).png using Guid(264901bf14a384e05a9131431f3ff895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c615e9777fae3e13ebebcca86a2ff2') in 0.007726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Terrain/Bannockburn Village.png
+  artifactKey: Guid(1456285f8a56041739dc8c7f044223ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Bannockburn Village.png using Guid(1456285f8a56041739dc8c7f044223ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02df78763d8705d4f698ee5050ce29a0') in 0.006232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Terrain/Aberdeen-Inverness Residence Hall.png
+  artifactKey: Guid(f6ea8b93eed684b459e8a4b39cb55a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Aberdeen-Inverness Residence Hall.png using Guid(f6ea8b93eed684b459e8a4b39cb55a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40ab75cfe443980dd5e5f06f0e93b87') in 0.005872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Terrain/ucr Chapman Hall.png
+  artifactKey: Guid(893a85414788d4b21935390aeadec3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Chapman Hall.png using Guid(893a85414788d4b21935390aeadec3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d9a42ebb5fe8b06058d59080c69579') in 0.006719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Terrain/Administration (Hinderaker Hall).png
+  artifactKey: Guid(bb12614dbe3574c5cba1eebcc486cf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Administration (Hinderaker Hall).png using Guid(bb12614dbe3574c5cba1eebcc486cf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fa54d4f00ed0a7b120a07fffa02a9a') in 0.005415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Terrain/ucr Housing Administration.png
+  artifactKey: Guid(2393bec8f19a848e68e0ff1038c290e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr Housing Administration.png using Guid(2393bec8f19a848e68e0ff1038c290e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f4cb1684b8a8d8f733d2f736d40729') in 0.006790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.068486 seconds.
+  path: Assets/Terrain/ucr.blend
+  artifactKey: Guid(ebfe3f5195c78ae409a02387bdb3c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/ucr.blend using Guid(ebfe3f5195c78ae409a02387bdb3c5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb560a97af6ecb21f66b5993e26d38f1') in 2.075569 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002686 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d57f000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/oliver/git/RAce/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.820 seconds
+Domain Reload Profiling:
+	ReloadAssembly (821ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (631ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5543 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (2.3 MB). Loaded Objects now: 6177.
+Memory consumption went from 0.97 GB to 0.97 GB.
+Total: 4.383250 ms (FindLiveObjects: 0.286666 ms CreateObjectMapping: 0.153959 ms MarkObjects: 2.960750 ms  DeleteObjects: 0.981166 ms)
+>>>>>>> b6c5074 (added mesh images and colliders)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -2138,6 +2974,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+=======
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> b6c5074 (added mesh images and colliders)
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
